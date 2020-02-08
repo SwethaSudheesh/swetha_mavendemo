@@ -11,7 +11,6 @@ public class Chocolates extends Sweets implements Comparable<Chocolates>{
 	public Chocolates() {
 		// TODO Auto-generated constructor stub
 	}
-
 	@Override
 	public int compareTo(Chocolates c) {
 		return (this.getCost() < c.getCost() ? -1 :

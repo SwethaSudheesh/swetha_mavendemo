@@ -8,9 +8,9 @@
 	</classpathentry>
 	<classpathentry kind="src" output="target/test-classes" path="src/test/java">
 		<attributes>
+			<attribute name="test" value="true"/>
 			<attribute name="optional" value="true"/>
 			<attribute name="maven.pomderived" value="true"/>
-			<attribute name="test" value="true"/>
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7">
@@ -23,5 +23,16 @@
 			<attribute name="maven.pomderived" value="true"/>
 		</attributes>
 	</classpathentry>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/charsets.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/deploy.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/javaws.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jce.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jfr.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jfxswt.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/jsse.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/management-agent.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/plugin.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/resources.jar"/>
+	<classpathentry exported="true" kind="lib" path="C:/Program Files/Java/jre1.8.0_181/lib/rt.jar"/>
 	<classpathentry kind="output" path="target/classes"/>
 </classpath>

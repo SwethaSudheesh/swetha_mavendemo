@@ -1,11 +1,8 @@
 package com.epam.mavendemo;
-
 import java.util.ArrayList;
 import java.util.InputMismatchException;
 import java.util.Scanner;
-
 import giftitems.Sweets;
-
 public class Gift_prop {
 	
     public static void main(String[] args) {
@@ -13,8 +10,7 @@ public class Gift_prop {
 	        Scanner scanner = new Scanner(System.in);
 	        int choice = 0, type;
 	        
-	        System.out.println("<--! WELCOME TO EPAM NEW YEAR'S GIFT PROJECT !-->\n");
-	        
+	        System.out.println("<--! WELCOME TO NEW YEAR'S GIFT-->\n");
 	        Range_gift gift = new Range_gift();
 	        ArrayList<Sweets> gifts = new ArrayList<Sweets>();
 	        gifts.add(gift.addDemoGift());

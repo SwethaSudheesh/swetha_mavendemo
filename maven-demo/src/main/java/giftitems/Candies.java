@@ -1,5 +1,4 @@
 package giftitems;
-
 public class Candies extends Sweets implements Comparable<Candies>{
 	
 	public Candies(String name, double cost, double weight) {

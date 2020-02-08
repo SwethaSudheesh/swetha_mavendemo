@@ -4,6 +4,7 @@ import giftitems.Candies;
 import giftitems.Chocolates;
 
 public abstract class Gift {
+	
 	protected String name;
 	protected double cost;
 	protected double weight;

@@ -22,7 +22,7 @@ public class Candies extends Sweets implements Comparable<Candies>{
 		return (this.getCost() < c.getCost() ? -1 : 
             (this.getCost() == c.getCost() ? 0 : 1));
 	}
-	
+
 	@Override
 	public void addTotalWeight(double weight) {
 		this.totalWeight += weight;

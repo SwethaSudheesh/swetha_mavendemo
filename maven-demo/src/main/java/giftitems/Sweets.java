@@ -10,7 +10,6 @@ public class Sweets extends Gift{
 		chocolates = new ArrayList<Chocolates>();
 		candies = new ArrayList<Candies>();
 	}
-
 	public void addChocolates(ArrayList<Chocolates> chocolates) {
 		this.chocolates = chocolates;
 	}

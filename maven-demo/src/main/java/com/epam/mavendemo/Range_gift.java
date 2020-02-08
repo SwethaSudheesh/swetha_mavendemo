@@ -26,7 +26,7 @@ public class Range_gift {
     	chocolates.add(c);
     	c = new Chocolates("Ferrero Rocher", 220, 250);
     	chocolates.add(c);
-
+    	
         sweets.addChocolates(chocolates);
         
         Candies cd = new Candies("Cotton candy", 100, 150);

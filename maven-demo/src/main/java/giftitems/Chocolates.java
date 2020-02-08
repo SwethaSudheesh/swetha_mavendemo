@@ -7,7 +7,7 @@ public class Chocolates extends Sweets implements Comparable<Chocolates>{
 		this.cost = cost;
 		this.weight = weight;
 	}
-	
+
 	public Chocolates() {
 		// TODO Auto-generated constructor stub
 	}
